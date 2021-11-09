@@ -1,2 +1,2 @@
-# YiHaoSDK_Common_iOS-
+# YiHaoSDK_Common_iOS
 pods
