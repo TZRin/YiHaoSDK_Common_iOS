@@ -19,6 +19,9 @@ cp -R "${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework" "${UNIV
 #cp -R "${BUILD_DIR}/${CONFIGURATION}-iphoneos/SDKResources.bundle" "${UNIVERSAL_OUTPUTFOLDER}/"
 #cp -R "${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/SDKResources.bundle" "${UNIVERSAL_OUTPUTFOLDER}/"
 
+# 移除模拟器的arm64
+lipo -remove arm64 "${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/${PROJECT_NAME}" -output "${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/${PROJECT_NAME}"
+
 # 合并framework，输出最终的framework到build目录
 lipo -create -output "${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/${PROJECT_NAME}" "${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/${PROJECT_NAME}" "${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework/${PROJECT_NAME}"
 

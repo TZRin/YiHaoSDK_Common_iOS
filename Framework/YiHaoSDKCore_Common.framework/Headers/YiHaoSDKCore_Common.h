@@ -18,3 +18,6 @@ FOUNDATION_EXPORT const unsigned char SDKCoreVersionString[];
 #import <YiHaoSDKCore_Common/YHSDKBaseHTTPDAO.h>
 #import <YiHaoSDKCore_Common/YHSDKTools.h>
 #import <YiHaoSDKCore_Common/YHSDKGetSystemInfo.h>
+#import <YiHaoSDKCore_Common/YHSDKGetSystemInfo.h>
+#import <YiHaoSDKCore_Common/YHSDKPurchaseOrder.h>
+#import <YiHaoSDKCore_Common/YHSDKReportInfo.h>
