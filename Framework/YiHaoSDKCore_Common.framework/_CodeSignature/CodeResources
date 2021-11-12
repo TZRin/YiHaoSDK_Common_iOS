@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/YHSDKBaseHTTPDAO.h</key>
 		<data>
-		pze4v93FTHzVbIVsZDYb21HDVeA=
+		lDRGgpX79OXqwH2SK5zQh9sa73c=
 		</data>
 		<key>Headers/YHSDKGetSystemInfo.h</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/YHSDKMacros.h</key>
 		<data>
-		vexEZh8oxRmcr0UR5NVzJaefSI0=
+		ibwFyMJDmU9YK9QQmGrGCHux5FU=
 		</data>
 		<key>Headers/YHSDKTools.h</key>
 		<data>
@@ -43,11 +43,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pze4v93FTHzVbIVsZDYb21HDVeA=
+			lDRGgpX79OXqwH2SK5zQh9sa73c=
 			</data>
 			<key>hash2</key>
 			<data>
-			/+OengkMlLRDwPoP3Zp/ESel6hDQnMEZt2K2pYOt8z4=
+			DT5DACuXXuDO/RzjdWTB8HF2IYrnpKY0+1qr3+Dda6k=
 			</data>
 		</dict>
 		<key>Headers/YHSDKGetSystemInfo.h</key>
@@ -65,11 +65,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vexEZh8oxRmcr0UR5NVzJaefSI0=
+			ibwFyMJDmU9YK9QQmGrGCHux5FU=
 			</data>
 			<key>hash2</key>
 			<data>
-			GqyONhey6UKyLs1Di1cxKFtd6ROit2DGy8pPr9cfoc4=
+			h0suT2tsrpKPbMkFC9Y+y8UccoWT2GUQ+EDYKOoHEac=
 			</data>
 		</dict>
 		<key>Headers/YHSDKTools.h</key>

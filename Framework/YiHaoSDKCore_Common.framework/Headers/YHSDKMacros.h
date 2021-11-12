@@ -7,9 +7,7 @@
 
 #ifndef YiHaoGamesSDKMacros_h
 #define YiHaoGamesSDKMacros_h
- 
-
-
+  
 // ===============         ===============
 // =============== Network ===============
 // ===============         ===============
