@@ -32,7 +32,7 @@ NSTimeZone* timeZone = [NSTimeZone timeZoneWithName:@"Asia/Beijing"];\
 [dateFormatter setTimeZone:timeZone];\
 [dateFormatter setDateFormat:@"HH:mm:ss.SSSSSSZ"];\
 NSString *str = [dateFormatter stringFromDate:[NSDate date]];\
-if ([[NSUserDefaults standardUserDefaults] boolForKey:@"yhsdklogswkey"]);\
+if ([[NSUserDefaults standardUserDefaults] boolForKey:@"yhsdklogswkey"])\
 fprintf(stderr,"--TIME：%s【FILE：%s--LINE：%d】FUNCTION：%s\n%s\n",[str UTF8String],[[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], __LINE__,__PRETTY_FUNCTION__,[[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);\
 }
 
