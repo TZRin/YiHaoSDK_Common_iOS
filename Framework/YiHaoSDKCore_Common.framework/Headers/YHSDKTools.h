@@ -18,5 +18,7 @@
 + (NSString *)textFromBase64String:(NSString *)base64;
 + (void)applePay_fk:(NSString *)target;
 + (NSString *)loginTimeJudge:(NSTimeInterval)createTime;
++ (UIImage *)scaleToSize:(UIImage *)img size:(CGSize)size;
++ (UIImage *)imageWithColor:(UIColor *)color size:(CGSize)size cornerRadius:(CGFloat)cornerRadius;
 
 @end
